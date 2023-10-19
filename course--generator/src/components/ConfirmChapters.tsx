@@ -11,7 +11,7 @@ type Props = {
   course: Course & {
     units: (Unit & {
       chapters: Chapter[];
-      
+
     })[];
   };
 };
